@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            *Name* Services
+        </title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="java_script.js"></script>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="media.css">
+        <link rel="stylesheet" href="serv&con.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@1,500&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Yellowtail&display=swap" rel="stylesheet"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    </head>
+    <body>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Ask call</a>
+        </div>
+
+
+        <div id="main">
+            <!--
+                the contents of the top stcky bar
+            -->
+            <div class="top_bar">
+                <div class="top_bar_container">
+                    <div class="left" style="flex-grow: 1;">
+                        <button onclick="openNav()" class="menu">
+                            <span class="material-icons">
+                                menu
+                            </span>
+                        </button>
+                    </div>
+                    <div class="center" style="flex-grow: 25;">
+                        <img src="" alt="*logo*" style="height: auto;width: auto;">
+                        <div class="company_name"><H1><span class="tname">*Name*</span></H1></div>
+                    </div>
+                </div>
+            </div>
+
+            <!--
+                the contents of the Section
+            -->
+            
+            <div class="list">
+                <div class="itm">
+                    <div class="subhead">
+                        <div class="head"><h2>Birthday</h2></div>
+                        <div class="icn">
+                            <button class="icnbtn" onclick="open_bday()">
+                                <img id="b_icn_a" src="1x/outline_add_black_24dp.png" >
+                                <img id="b_icn_m" src="1x/outline_close_black_24dp.png" >
+                            </button>
+                        </div>
+                    </div>
+                    <div class="img_grid" id="bday_img">
+                        <div class="row">
+                            <div class="column">
+                                <div class="pic">
+                                    <img class="imgpic" src="services img/1.jpg">
+                                </div>
+                                <div class="discpition">
+                                    <p>1</p>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="pic">
+                                    <img class="imgpic" src="services img/2.jpg">
+                                </div>
+                                <div class="discpition">
+                                    <p>2</p>
+                                </div>
+                            </div><div class="column">
+                                <div class="pic">
+                                    <img class="imgpic" src="services img/3.jpg">
+                                </div>
+                                <div class="discpition">
+                                    <p>3</p>
+                                </div>
+                            </div><div class="column">
+                                <div class="pic">
+                                    <img class="imgpic" src="services img/4.jpg">
+                                </div>
+                                <div class="discpition">
+                                    <p>4</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="column">
+                                <div class="pic">
+                                    <img class="imgpic" src="services img/5.jpg">
+                                </div>
+                                <div class="discpition">
+                                    <p>5</p>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="pic">
+                                    <img class="imgpic" src="services img/6.jpg">
+                                </div>
+                                <div class="discpition">
+                                    <p>6</p>
+                                </div>
+                            </div><div class="column">
+                                <div class="pic">
+                                    <img class="imgpic" src="services img/7.jpg">
+                                </div>
+                                <div class="discpition">
+                                    <p>7</p>
+                                </div>
+                            </div><div class="column">
+                                <div class="pic">
+                                    <img class="imgpic" src="services img/8.jpg">
+                                </div>
+                                <div class="discpition">
+                                    <p>8</p>
+                                </div>
+                            </div>
+                        </div><div class="row">
+                            <div class="column">
+                                <div class="pic">
+                                    <img class="imgpic" src="services img/9.jpg">
+                                </div>
+                                <div class="discpition">
+                                    <p>9</p>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="pic">
+                                    <img class="imgpic" src="services img/10.jpg">
+                                </div>
+                                <div class="discpition">
+                                    <p>10</p>
+                                </div>
+                            </div><div class="column">
+                                <div class="pic">
+                                    <img class="imgpic" src="services img/11.jpg">
+                                </div>
+                                <div class="discpition">
+                                    <p>11</p>
+                                </div>
+                            </div><div class="column">
+                                <div class="pic">
+                                    <img class="imgpic" src="services img/12.jpg">
+                                </div>
+                                <div class="discpition">
+                                    <p>12</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="itm">
+                    <div class="subhead">
+                        <div class="head"><h2>Surprise Parties</h2></div>
+                        <div class="icn">
+                            <button class="icnbtn" onclick="open_surp()" >
+                                <img id="sp_icn_a" src="1x/outline_add_black_24dp.png" >
+                                <img id="sp_icn_m" src="1x/outline_close_black_24dp.png" >
+                            </button>
+                        </div>
+                    </div>
+                    <div class="img_grid" id="surp_img">
+                        <div class="row">
+                            <div class="column">
+                                <div class="pic">
+                                    <img class="imgpic" src="services img/1.jpg">
+                                </div>
+                                <div class="discpition">
+                                    <p>1</p>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="pic">
+                                    <img class="imgpic" src="services img/2.jpg">
+                                </div>
+                                <div class="discpition">
+                                    <p>2</p>
+                                </div>
+                            </div><div class="column">
+                                <div class="pic">
+                                    <img class="imgpic" src="services img/3.jpg">
+                                </div>
+                                <div class="discpition">
+                                    <p>3</p>
+                                </div>
+                            </div><div class="column">
+                                <div class="pic">
+                                    <img class="imgpic" src="services img/4.jpg">
+                                </div>
+                                <div class="discpition">
+                                    <p>4</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="column">
+                                <div class="pic">
+                                    <img class="imgpic" src="services img/5.jpg">
+                                </div>
+                                <div class="discpition">
+                                    <p>5</p>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="pic">
+                                    <img class="imgpic" src="services img/6.jpg">
+                                </div>
+                                <div class="discpition">
+                                    <p>6</p>
+                                </div>
+                            </div><div class="column">
+                                <div class="pic">
+                                    <img class="imgpic" src="services img/7.jpg">
+                                </div>
+                                <div class="discpition">
+                                    <p>7</p>
+                                </div>
+                            </div><div class="column">
+                                <div class="pic">
+                                    <img class="imgpic" src="services img/8.jpg">
+                                </div>
+                                <div class="discpition">
+                                    <p>8</p>
+                                </div>
+                            </div>
+                        </div><div class="row">
+                            <div class="column">
+                                <div class="pic">
+                                    <img class="imgpic" src="services img/9.jpg">
+                                </div>
+                                <div class="discpition">
+                                    <p>9</p>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="pic">
+                                    <img class="imgpic" src="services img/10.jpg">
+                                </div>
+                                <div class="discpition">
+                                    <p>10</p>
+                                </div>
+                            </div><div class="column">
+                                <div class="pic">
+                                    <img class="imgpic" src="services img/11.jpg">
+                                </div>
+                                <div class="discpition">
+                                    <p>11</p>
+                                </div>
+                            </div><div class="column">
+                                <div class="pic">
+                                    <img class="imgpic" src="services img/12.jpg">
+                                </div>
+                                <div class="discpition">
+                                    <p>12</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="itm">
+                    <div class="subhead">
+                        <div class="head"><h2>Sangeeth and Mehendi</h2></div>
+                        <div class="icn">
+                            <button class="icnbtn" onclick="open_sm()">
+                                <img id="sm_icn_a" src="1x/outline_add_black_24dp.png" >
+                                <img id="sm_icn_m" src="1x/outline_close_black_24dp.png" >
+                            </button>
+                        </div>
+                    </div>
+                    <div class="img_grid" id="sm_img">
+                        <div class="row">
+                            <div class="column">
+                                <div class="pic">
+                                    <img class="imgpic" src="services img/1.jpg">
+                                </div>
+                                <div class="discpition">
+                                    <p>1</p>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="pic">
+                                    <img class="imgpic" src="services img/2.jpg">
+                                </div>
+                                <div class="discpition">
+                                    <p>2</p>
+                                </div>
+                            </div><div class="column">
+                                <div class="pic">
+                                    <img class="imgpic" src="services img/3.jpg">
+                                </div>
+                                <div class="discpition">
+                                    <p>3</p>
+                                </div>
+                            </div><div class="column">
+                                <div class="pic">
+                                    <img class="imgpic" src="services img/4.jpg">
+                                </div>
+                                <div class="discpition">
+                                    <p>4</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="column">
+                                <div class="pic">
+                                    <img class="imgpic" src="services img/5.jpg">
+                                </div>
+                                <div class="discpition">
+                                    <p>5</p>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="pic">
+                                    <img class="imgpic" src="services img/6.jpg">
+                                </div>
+                                <div class="discpition">
+                                    <p>6</p>
+                                </div>
+                            </div><div class="column">
+                                <div class="pic">
+                                    <img class="imgpic" src="services img/7.jpg">
+                                </div>
+                                <div class="discpition">
+                                    <p>7</p>
+                                </div>
+                            </div><div class="column">
+                                <div class="pic">
+                                    <img class="imgpic" src="services img/8.jpg">
+                                </div>
+                                <div class="discpition">
+                                    <p>8</p>
+                                </div>
+                            </div>
+                        </div><div class="row">
+                            <div class="column">
+                                <div class="pic">
+                                    <img class="imgpic" src="services img/9.jpg">
+                                </div>
+                                <div class="discpition">
+                                    <p>9</p>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="pic">
+                                    <img class="imgpic" src="services img/10.jpg">
+                                </div>
+                                <div class="discpition">
+                                    <p>10</p>
+                                </div>
+                            </div><div class="column">
+                                <div class="pic">
+                                    <img class="imgpic" src="services img/11.jpg">
+                                </div>
+                                <div class="discpition">
+                                    <p>11</p>
+                                </div>
+                            </div><div class="column">
+                                <div class="pic">
+                                    <img class="imgpic" src="services img/12.jpg">
+                                </div>
+                                <div class="discpition">
+                                    <p>12</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="itm">
+                    <div class="subhead">
+                        <div class="head"><h2>Anniversaies</h2></div>
+                        <div class="icn">
+                            <button class="icnbtn" onclick="open_anni()">
+                                <img id="a_icn_a" src="1x/outline_add_black_24dp.png" >
+                                <img id="a_icn_m" src="1x/outline_close_black_24dp.png" >
+                            </button>
+                        </div>
+                    </div>
+                    <div class="img_grid" id="anni_img">
+                        <div class="row">
+                            <div class="column">
+                                <div class="pic">
+                                    <img class="imgpic" src="services img/1.jpg">
+                                </div>
+                                <div class="discpition">
+                                    <p>1</p>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="pic">
+                                    <img class="imgpic" src="services img/2.jpg">
+                                </div>
+                                <div class="discpition">
+                                    <p>2</p>
+                                </div>
+                            </div><div class="column">
+                                <div class="pic">
+                                    <img class="imgpic" src="services img/3.jpg">
+                                </div>
+                                <div class="discpition">
+                                    <p>3</p>
+                                </div>
+                            </div><div class="column">
+                                <div class="pic">
+                                    <img class="imgpic" src="services img/4.jpg">
+                                </div>
+                                <div class="discpition">
+                                    <p>4</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="column">
+                                <div class="pic">
+                                    <img class="imgpic" src="services img/5.jpg">
+                                </div>
+                                <div class="discpition">
+                                    <p>5</p>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="pic">
+                                    <img class="imgpic" src="services img/6.jpg">
+                                </div>
+                                <div class="discpition">
+                                    <p>6</p>
+                                </div>
+                            </div><div class="column">
+                                <div class="pic">
+                                    <img class="imgpic" src="services img/7.jpg">
+                                </div>
+                                <div class="discpition">
+                                    <p>7</p>
+                                </div>
+                            </div><div class="column">
+                                <div class="pic">
+                                    <img class="imgpic" src="services img/8.jpg">
+                                </div>
+                                <div class="discpition">
+                                    <p>8</p>
+                                </div>
+                            </div>
+                        </div><div class="row">
+                            <div class="column">
+                                <div class="pic">
+                                    <img class="imgpic" src="services img/9.jpg">
+                                </div>
+                                <div class="discpition">
+                                    <p>9</p>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="pic">
+                                    <img class="imgpic" src="services img/10.jpg">
+                                </div>
+                                <div class="discpition">
+                                    <p>10</p>
+                                </div>
+                            </div><div class="column">
+                                <div class="pic">
+                                    <img class="imgpic" src="services img/11.jpg">
+                                </div>
+                                <div class="discpition">
+                                    <p>11</p>
+                                </div>
+                            </div><div class="column">
+                                <div class="pic">
+                                    <img class="imgpic" src="services img/12.jpg">
+                                </div>
+                                <div class="discpition">
+                                    <p>12</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="itm">
+                    <div class="subhead">
+                        <div class="head"><h2>Baby Shoots</h2></div>
+                        <div class="icn">
+                            <button class="icnbtn" onclick="open_bshoot()">
+                                <img id="bs_icn_a" src="1x/outline_add_black_24dp.png" >
+                                <img id="bs_icn_m" src="1x/outline_close_black_24dp.png" >
+                            </button>
+                        </div>
+                    </div>
+                    <div class="img_grid" id="bshoot_img">
+                        <div class="row">
+                            <div class="column">
+                                <div class="pic">
+                                    <img class="imgpic" src="services img/1.jpg">
+                                </div>
+                                <div class="discpition">
+                                    <p>1</p>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="pic">
+                                    <img class="imgpic" src="services img/2.jpg">
+                                </div>
+                                <div class="discpition">
+                                    <p>2</p>
+                                </div>
+                            </div><div class="column">
+                                <div class="pic">
+                                    <img class="imgpic" src="services img/3.jpg">
+                                </div>
+                                <div class="discpition">
+                                    <p>3</p>
+                                </div>
+                            </div><div class="column">
+                                <div class="pic">
+                                    <img class="imgpic" src="services img/4.jpg">
+                                </div>
+                                <div class="discpition">
+                                    <p>4</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="column">
+                                <div class="pic">
+                                    <img class="imgpic" src="services img/5.jpg">
+                                </div>
+                                <div class="discpition">
+                                    <p>5</p>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="pic">
+                                    <img class="imgpic" src="services img/6.jpg">
+                                </div>
+                                <div class="discpition">
+                                    <p>6</p>
+                                </div>
+                            </div><div class="column">
+                                <div class="pic">
+                                    <img class="imgpic" src="services img/7.jpg">
+                                </div>
+                                <div class="discpition">
+                                    <p>7</p>
+                                </div>
+                            </div><div class="column">
+                                <div class="pic">
+                                    <img class="imgpic" src="services img/8.jpg">
+                                </div>
+                                <div class="discpition">
+                                    <p>8</p>
+                                </div>
+                            </div>
+                        </div><div class="row">
+                            <div class="column">
+                                <div class="pic">
+                                    <img class="imgpic" src="services img/9.jpg">
+                                </div>
+                                <div class="discpition">
+                                    <p>9</p>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="pic">
+                                    <img class="imgpic" src="services img/10.jpg">
+                                </div>
+                                <div class="discpition">
+                                    <p>10</p>
+                                </div>
+                            </div><div class="column">
+                                <div class="pic">
+                                    <img class="imgpic" src="services img/11.jpg">
+                                </div>
+                                <div class="discpition">
+                                    <p>11</p>
+                                </div>
+                            </div><div class="column">
+                                <div class="pic">
+                                    <img class="imgpic" src="services img/12.jpg">
+                                </div>
+                                <div class="discpition">
+                                    <p>12</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--
+                the contents of the footer
+            -->
+            <div class="part4">
+                <div class="part4_container">
+                    <div class="part4_con_copyright">
+                        <p>&copy;2021 All rights recived</p>
+                    </div>
+                    <div class="contact_icons">
+                        <div class="cicon">
+                            <img class="cicons" src="images/you.png" alt="" >
+                        </div>
+                        <div class="cicon">
+                            <img class="cicons" src="images/fac.png" alt="" >
+                        </div>
+                        <div class="cicon">
+                            <img class="cicons" src="images/insta.png" alt="" >
+                        </div>
+                        <div class="cicon">
+                            <img class="cicons" src="images/wu.png" alt="" >
+                        </div>
+                    </div>
+                    <div class="part4_txt">
+                        <p><span class="tname" style="font-family:'Alegreya', serif!important;">*Name*</span>&reg; since 2021</p>
+                    </div>
+                    <div class="part4_details">
+                        <div class="detail">
+                            +91 xxxxx xxxxx
+                        </div>
+                        <div class="detail">
+                            <a href="mailto:2819.event.managers@gmail.com">Mail Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

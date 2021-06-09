@@ -1,0 +1,290 @@
+/*Main tages cascading*/
+body{
+    height: 100%;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Yellowtail', cursive;
+}
+
+h1,p,h2,h3,h4,h5,h6{
+    margin: 0px;
+}
+
+/*
+*** Here starts the class cascading ***
+*/
+
+
+.first_view{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+    background-image: url('images/bg1.jpg');
+    background-size: cover;
+    
+}
+
+.first_view_con{
+    background-color: rgba(255, 255, 255, 0.801);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    padding: 35px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -150px;
+    border-radius: 40px;
+    text-align: center;
+    z-index: 11;
+}
+
+.first_view_button{
+    width: 3vw;
+    height: 5vh;
+    color: rgba(26, 18, 12, 0.521);
+    border: none;
+    border-radius: 100px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.first_view_button:hover{
+    background-color: rgba(255, 255, 255);
+}
+
+/*
+*** From here is the sticky bar of main page ***
+*/
+
+.tname{
+    font-family:'Alegreya', serif!important;
+}
+
+.top_bar{
+    position: fixed;
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(255, 255, 255);
+    /*background-image: linear-gradient(45deg , #AAD8E9, #DAAAE9, #E9BBAA, #BABBF7, #F7BAD9, #F7F6BA);
+    */box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.5);
+    opacity: 1;
+}
+
+.top_bar_container{
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    opacity: 1;
+}
+
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu{
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/*
+*** Side bar cascading***
+*/
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #f1f1f1;
+    background-image: linear-gradient(45deg , #AAD8E9, #DAAAE9, #E9BBAA, #BABBF7, #F7BAD9, #F7F6BA);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #020200;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #888;
+    text-shadow: 5px 7px 2px rgba(0, 0, 0, 0.2);
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+}
+  
+/*
+*** Part1 Cascading***
+*/
+.part1{
+    height: 70vh;
+    padding-top: 80px;
+}
+
+.part1, .part1_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.part1_container{
+    flex-direction: row;
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+    background-color: skyblue;
+}
+
+.part1_con_namepart,.part1_con_textpart{
+    width: 50px!important;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 50px;
+}
+
+.para1{
+    font-size: x-large;
+}
+
+.para2{
+    font-size: x-large;
+    padding-top: 20px;
+}
+
+/*
+*** Part2 Cascading***
+*/
+.part2, .part2_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+
+/*
+*** Part3 Cascading***
+*/
+.part3, .part3_container, .part4, .part4_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.part3_container{
+    flex-direction: row;
+    font-size: x-large;
+}
+
+.event{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 75px ;
+}
+
+.icon{
+    background-color: tan;
+    border-radius: 10px;
+}
+
+.icon_img{
+    width: 100px;
+    height: 75px;
+}
+
+/*
+*** Part4 Cascading***
+*/
+
+.part4{
+    height: 10%;
+    background-color: rgb(250, 202, 193);
+    font-family: 'Yellowtail', cursive;
+}
+
+.part4_container{
+    flex-direction: column;
+}
+
+.contact_icons{
+    display: flex;
+    flex-direction: row;
+}
+
+.cicon{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.cicons{
+    width: 30px;
+    height: 20px;
+}
+
+.part4_text, .contact_icons, .part4_con_copyright{
+    padding: 10px;
+}
+
+.part4_details{
+    display: flex;
+    flex-direction: row;
+}
+
+.detail{
+    padding: 10px;
+}
+
+/*
+*** Part5 Cascading***
+*/
+.part5{
+    background-image: url('images/bg1.jpg');
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

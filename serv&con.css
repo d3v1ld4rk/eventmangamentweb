@@ -1,0 +1,127 @@
+html,body{
+    height: 100%;
+}
+hr{
+    border: 1px solid ivory;
+    width: 90%;
+}
+/*
+*** *** *** *** Services Cascading *** *** *** ***
+*/
+
+.list{
+    height: max-content;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: indianred;
+}
+
+.itm{
+    margin: 35px;
+}
+
+.subhead{
+    padding: 2px;
+    box-shadow: 0px 0px 5px grey;
+    text-align: center;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+}
+
+.head{
+    flex-grow: 2;
+}
+.icn{
+    display: flex;
+    align-items: center;
+}
+
+.icnbtn{
+    border: none;
+    background-color: lawngreen;
+    border-radius: 5px;
+}
+
+.icnbtn:hover{
+    border: none;
+    background-color: lightblue;
+    border-radius: 10px;
+}
+
+.img_grid{
+    display: none;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.column{
+    margin:10px 20px;
+    border: 2px solid indianred;
+    box-shadow: 0px 0px 10px indianred;
+}
+.column:hover{
+    border: 2px solid rgb(82, 85, 80);
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+
+.pic{
+    width: 250px;
+    height: 225px;
+}
+
+img.imgpic{
+    width: inherit;
+    height: inherit;
+    transition: transform .2s;
+}
+
+img.imgpic:hover{
+    transform: scale(2);
+}
+
+.discpition{
+    background-color: ivory;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+#b_icn_m, #sp_icn_m, #sm_icn_m, #a_icn_m, #bs_icn_m{
+    display: none;
+}
+
+
+/*
+*** *** *** *** Contact Cascading *** *** *** ***
+*/
+.contact_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 80px;
+    background-color: aqua;
+    height: 70vh;
+}
+.contact2_container{
+    background-color: rgba(255, 255, 255, 0.75 );
+    border-radius: 20px;
+    box-shadow: 0px 0px 25px rgb(122, 122, 122);
+    text-align: center;
+    height: max-content;
+    padding: 2.5%;
+}
+
+.contact_form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
